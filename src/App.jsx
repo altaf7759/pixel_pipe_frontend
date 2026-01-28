@@ -1,10 +1,11 @@
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
-    <>
-      <h1>App component</h1>
-    </>
+    <div className="max-w-350 mx-auto">
+      <Navbar />
+    </div>
   )
 }
 
