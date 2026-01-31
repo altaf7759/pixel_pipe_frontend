@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import UploadImage from "../components/uploadImage";
-import GeneratedImagesGrid from "../components/GeneratedImageGrid";
+import UploadImage from "../components/UploadImage.jsx";
+import GeneratedImagesGrid from "../components/GeneratedImageGrid.jsx";
 
 function GenerateImagesPage() {
       const [file, setFile] = useState(null);
